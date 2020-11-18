@@ -1,0 +1,12 @@
+@mixin flex ($d, $ff, $jc, $ai) {
+    display: $d;
+    flex-flow: $ff;
+    justify-content: $jc;
+    align-items: $ai;
+}
+@mixin grid ($d, $gtr, $gtc, $gg) {
+    display: $d;
+    grid-template-rows: $gtr;
+    grid-template-columns: $gtc;
+    grid-gap: $gg;
+}
